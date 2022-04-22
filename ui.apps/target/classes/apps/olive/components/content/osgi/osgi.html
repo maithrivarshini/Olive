@@ -1,0 +1,17 @@
+<h3>OSGI</h3>
+
+<div data-sly-use.osgi="olive.core.models.OSGIModel">
+
+<p>Object Name: ${osgi.objectName}</p>
+
+<p>Object Count: ${osgi.objectCount}</p>
+
+<p>Real Object or not?: ${osgi.trueOrFalse}</p>
+
+<p>Object Regional Availability</p>
+
+<ol data-sly-list="${osgi.objectRegionalAvailability}">
+  <li>${item}</li>
+</ol>
+
+<p>Payment Mode: ${osgi.paymentMode}</p>

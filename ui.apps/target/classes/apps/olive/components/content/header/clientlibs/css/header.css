@@ -1,0 +1,10 @@
+.megamenu {
+  position: static;
+  background: #282d32
+}
+
+.megamenu .dropdown-menu {
+  background: none ;
+  border: none;
+  width: 100%;
+}

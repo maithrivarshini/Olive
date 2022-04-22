@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/olive.core.config.OSGIConfig">
+  <OCD id="olive.core.config.OSGIConfig" name="Olive OSGI config" description="OSGI Configuration for Plumstreet">
+    <AD id="objectName" type="String" name="Object Name" description="Enter the name of the Object"/>
+    <AD id="objectCount" type="Integer" name="Object Count" description="Enter the count of Objects"/>
+    <AD id="trueOrFalse" type="Boolean" name="Real Object" description="Is the Object Real"/>
+    <AD id="objectRegionalAvailability" type="String" cardinality="2147483647" name="Object Regional Availability" description="Enter the regoins where the Object is available" default="Andhra\ Pradesh,Telangana"/>
+    <AD id="paymentMode" type="String" name="Payment Mode" description="Enter the Mode of Payment">
+      <Option label="UPI" value="upi"/>
+      <Option label="Amazon Pay" value="amazonPay"/>
+      <Option label="Card" value="card"/>
+      <Option label="Cash on Delivery" value="cashOnDelivery"/>
+    </AD>
+  </OCD>
+  <Designate factoryPid="olive.core.services.OSGIService">
+    <Object ocdref="olive.core.config.OSGIConfig"/>
+  </Designate>
+</metatype:MetaData>

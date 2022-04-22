@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven
+Built-By: M1062165
+Build-Jdk: 11.0.10
+Implementation-Title: olive - UI content
+Implementation-Version: 1.0
+Implementation-Vendor-Id: com.mindtree.olive
+Content-Package-Roots: /conf/olive,/content/dam/olive,/content/olive
+Content-Package-Description: UI content package for olive
+Content-Package-Id: olive:olive.ui.content:1.0
+Content-Package-Type: content
+

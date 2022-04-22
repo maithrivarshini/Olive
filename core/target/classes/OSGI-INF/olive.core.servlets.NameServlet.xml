@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="olive.core.servlets.NameServlet">
+  <property name="sling.servlet.extensions" type="String" value="txt"/>
+  <property name="sling.servlet.paths" type="String" value="/bin/olive/NameServlet"/>
+  <property name="sling.servlet.methods" type="String" value="GET"/>
+  <service>
+    <provide interface="javax.servlet.Servlet"/>
+  </service>
+  <implementation class="olive.core.servlets.NameServlet"/>
+</scr:component>

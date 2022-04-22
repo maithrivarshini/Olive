@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>olive - UI apps</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="createdBy">M1062165</entry>
+<entry key="created">2022-04-22T10:25:59.309+05:30</entry>
+<entry key="groupId">com.mindtree.olive</entry>
+<entry key="name">olive.ui.apps</entry>
+<entry key="description">UI apps package for olive</entry>
+<entry key="artifactId">olive.ui.apps</entry>
+<entry key="version">1.0</entry>
+<entry key="packageType">mixed</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">olive</entry>
+</properties>

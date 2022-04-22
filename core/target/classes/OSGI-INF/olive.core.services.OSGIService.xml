@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="olive.core.services.OSGIService" configuration-policy="require" immediate="true" activate="activate">
+  <property name="objectRegionalAvailability" type="String">Andhra Pradesh
+Telangana</property>
+  <service>
+    <provide interface="olive.core.services.OSGIService"/>
+  </service>
+  <implementation class="olive.core.services.OSGIService"/>
+</scr:component>

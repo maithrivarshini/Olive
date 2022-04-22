@@ -1,0 +1,16 @@
+olive\core\servlets\NameServlet.class
+olive\core\models\OSGIModel.class
+olive\core\config\OSGIConfig.class
+olive\core\models\package-info.class
+olive\core\schedulers\SimpleScheduledTask.class
+olive\core\filters\LoggingFilter.class
+olive\core\models\HelloWorldModel.class
+olive\core\filters\package-info.class
+olive\core\servlets\package-info.class
+olive\core\models\ImageTextModel.class
+olive\core\schedulers\package-info.class
+olive\core\services\OSGIService.class
+olive\core\servlets\SimpleServlet.class
+olive\core\schedulers\SimpleScheduledTask$Config.class
+olive\core\listeners\package-info.class
+olive\core\listeners\SimpleResourceListener.class

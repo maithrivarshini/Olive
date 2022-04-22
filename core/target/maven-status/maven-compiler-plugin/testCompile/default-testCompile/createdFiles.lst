@@ -1,0 +1,5 @@
+olive\core\listeners\SimpleResourceListenerTest.class
+olive\core\models\HelloWorldModelTest.class
+olive\core\filters\LoggingFilterTest.class
+olive\core\schedulers\SimpleScheduledTaskTest.class
+olive\core\servlets\SimpleServletTest.class
